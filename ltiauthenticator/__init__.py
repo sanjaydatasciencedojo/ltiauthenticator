@@ -102,7 +102,7 @@ class LTIAuthenticator(Authenticator):
     JupyterHub Authenticator for use with LTI based services (EdX, Canvas, etc)
     """
 
-    auto_login = True
+    auto_login = False
     login_service = 'LTI'
 
     consumers = Dict(
