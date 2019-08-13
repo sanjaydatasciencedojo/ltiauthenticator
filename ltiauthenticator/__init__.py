@@ -6,7 +6,7 @@ from tornado import gen, web
 from jupyterhub.auth import Authenticator
 from jupyterhub.handlers import BaseHandler
 from jupyterhub.utils import url_path_join
-from authenticator.generic import GenericOAuthenticator
+from oauthenticator.generic import GenericOAuthenticator
 
 from oauthlib.oauth1.rfc5849 import signature
 from collections import OrderedDict
